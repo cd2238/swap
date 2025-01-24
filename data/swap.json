@@ -1,0 +1,193 @@
+{
+  "_typ": "Asset",
+  "_id": "11516849",
+  "name": "SW20250707_ESTR O/2.6295",
+  "moreIds": [
+    {
+      "code": "11516849",
+      "codScheme": "ALTO_INST_NUM"
+    },
+    {
+      "code": "141497",
+      "codScheme": "LEDS"
+    },
+    {
+      "code": "MARKITWIRE256073326",
+      "codScheme": "UTI"
+    },
+    {
+      "code": "1237165",
+      "codScheme": "MX"
+    }
+  ],
+  "assetClass": "DERIVATIVE",
+  "assetGroup": "INTEREST_RATE_SWAP",
+  "assetType": "SWAP_ON_RATE",
+  "quantityExprMode": "NOMINAL",
+  "quotations": [
+    {
+      "_typ": "Quotation",
+      "sourceId": {},
+      "date": "2024-12-19",
+      "close": 100.0173639,
+      "ask": 0.0,
+      "bid": 0.0,
+      "accIntPrice": 0.0,
+      "volume": 2209.63531542
+    }
+  ],
+  "exchangeMarket": {
+    "_typ": "ExchangeMarket",
+    "_id": "999",
+    "name": "INCONNU",
+    "incorporationCtry": "INC"
+  },
+  "ccy": "EUR",
+  "exposureCtry": "FRA",
+  "emergingExpoCtry": false,
+  "inflationIndexed": false,
+  "maturityDate": "2025-07-07",
+  "attributes": [
+    {
+      "name": "EMERGING_2",
+      "stringValue": "N"
+    },
+    {
+      "name": "RATING_MEDIAN",
+      "stringValue": "NA"
+    },
+    {
+      "name": "COUNTERPARTY_CODE",
+      "stringValue": "CALYON"
+    },
+    {
+      "name": "COUNTERPARTY_LABEL",
+      "stringValue": "CREDIT AGRICOLE CIB"
+    },
+    {
+      "name": "COUNTERPARTY_COUNTRY",
+      "stringValue": "FRA"
+    },
+    {
+      "name": "COUNTERPARTY_LEI_CODE",
+      "stringValue": "1VUV7VQFKUOQSJ21A208"
+    },
+    {
+      "name": "COUNTERPARTY_BROKER_GROUP_LABEL",
+      "stringValue": "CREDIT AGRICOLE"
+    },
+    {
+      "name": "COUNTERPARTY_BIC_CODE"
+    }
+  ],
+  "issuer": {
+    "_typ": "LegalEntity",
+    "_id": "CREDIT AGRICOLE CIB",
+    "name": "CREDIT AGRICOLE CIB",
+    "headquartersCtry": "FRA"
+  },
+  "nominal": 1.0,
+  "initialNominal": 1.0,
+  "ccy2": "EUR",
+  "daysNotice": 0,
+  "interestRate": {
+    "rateType": "FLOATING",
+    "marginAdd": 0.0,
+    "marginMult": 1.0,
+    "index": {
+      "_typ": "Index",
+      "_id": "6741831",
+      "id": {
+        "code": "6741831"
+      }
+    },
+    "paymentFreq": "NONE"
+  },
+  "legs": [
+    {
+      "side": "RECEIVE",
+      "ccy": "EUR",
+      "nominal": 1.0,
+      "startDate": "2024-10-07",
+      "endDate": "2025-07-07",
+      "rollConvention": "FOLLOWING",
+      "interest": {
+        "rateType": "FLOATING",
+        "resetFreq": "NONE",
+        "marginAdd": 0.0,
+        "marginMult": 1.0,
+        "index": {
+          "_typ": "Index",
+          "_id": "6741831",
+          "id": {
+            "code": "6741831"
+          }
+        },
+        "paymentFrequency": {
+          "code": "INFI"
+        },
+        "dayCountMethod": "4.0"
+      }
+    },
+    {
+      "side": "PAY",
+      "ccy": "EUR",
+      "nominal": 1.0,
+      "startDate": "2024-10-07",
+      "endDate": "2025-07-07",
+      "rollConvention": "FOLLOWING",
+      "interest": {
+        "rate": 2.6295,
+        "rateType": "FIXED",
+        "resetFreq": "NONE",
+        "paymentFrequency": {
+          "code": "INFI"
+        },
+        "dayCountMethod": "4.0"
+      }
+    }
+  ],
+  "issueDate": "2024-10-07",
+  "issuePrice": 0.0,
+  "nominalCcy": "EUR",
+  "lotSize": 1.0,
+  "hybrid": false,
+  "convertible": false,
+  "emtn": false,
+  "putable": false,
+  "callable": false,
+  "islamic": false,
+  "debtInfo": {
+    "structuredNote": false
+  },
+  "illiquid": false,
+  "contractValue": 0.0,
+  "fund": {
+    "_typ": "Portfolio",
+    "id": {
+      "code": ""
+    },
+    "mainClassif": {
+      "_typ": "Classif"
+    },
+    "classifs": [
+      null,
+      null
+    ],
+    "europeanDirective": {},
+    "indexed": "null",
+    "feeder": "null",
+    "valuation": {
+      "_typ": "Quotation"
+    }
+  },
+  "indexRatio": 1.0,
+  "privatePlacement": false,
+  "defaulted": false,
+  "perpetual": false,
+  "covered": false,
+  "loanParticipationNote": false,
+  "cashAccount": {
+    "_typ": "Account"
+  }
+}
