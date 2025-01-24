@@ -31,3 +31,6 @@ ANNU 	6741831 ESTR OIS              ?
 SEME 	549433  HUF 6 MOIS BUBOR      ok
 ANNU 	5967593 SOFR OVERNIGHT RATE   ?
 INFI 	6741831 ESTR OIS              ?
+
+
+on ne dispose que de la valeur des indices pour la date du jour
