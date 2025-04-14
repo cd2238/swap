@@ -17,7 +17,7 @@ jupyterlab = "*"
 scipy = "*"
 scikit-learn = "*"
 xsdata="*"
-openaml_importer="*"
+QuantLib="*"
 
 [requires]
 python_version = "3.12"
